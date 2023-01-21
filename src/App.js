@@ -4,6 +4,8 @@ import Classfunction from './Components/Classfunction';
 import Function from './Components/Function';
 import Mulstate from './Components/Mulstates';
 import States from './Components/Satates';
+import SingleForm from './Components/SingleForm';
+import MulinpForm from './Components/MulinpForm';
 
 function App() {
   const user="Username"
@@ -13,6 +15,8 @@ function App() {
     <Function username={user}/>
     <States/>
     <Mulstate/>
+    <SingleForm/>
+    <MulinpForm/>
     </>
 
   );

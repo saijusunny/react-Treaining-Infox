@@ -11,6 +11,13 @@ const Mulstate =() => {
         std:'4 th',
         age : 8
     })
+
+    // change all function
+    const changeAll=()=>{
+        setCount(Count+2);
+        setName('arjun');
+        setStud({...Stud, age : 1000})
+    }
     return(
         <div style={{backgroundColor:'yellow'}}>
             <h1>Its from Multiple State</h1>
@@ -51,6 +58,7 @@ const Mulstate =() => {
                 {/* prevState is a veriable */}
                 <button onClick={()=>setStud(prevState=>{
                     return{...prevState, age : 700}})}>Click To add One</button>
+                <button onClick={changeAll}>Change all In single function</button>
             </div>
 
             
