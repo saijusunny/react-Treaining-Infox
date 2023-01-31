@@ -7,6 +7,8 @@ import States from './Components/Satates';
 import SingleForm from './Components/SingleForm';
 import MulinpForm from './Components/MulinpForm';
 import StoreformArray from './Components/StoreformArray';
+import Counter from './Components/Counter';
+import Callback from './Components/Callback';
 
 function App() {
   const user="Username"
@@ -19,8 +21,9 @@ function App() {
     <SingleForm/>
     <MulinpForm/>
     <StoreformArray/>
+    <Counter/>
+    <Callback/>
     </>
-
   );
 }
 
